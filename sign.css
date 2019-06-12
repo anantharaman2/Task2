@@ -1,0 +1,40 @@
+.header{
+    height: 80px;
+    width: 100%;
+    background: red;
+}
+#menu{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
+    background-color: #333;
+    
+}
+li{
+    float: left;
+}
+
+.container{
+    height: 60%;
+    width: 50%;
+    position: relative;
+    left: 350px;
+    background: green;
+
+
+}
+.body{
+    height: 40%;
+    width: 70%;
+    position: relative;
+    left: 200px;
+    background: blue;
+
+}
+.footer{
+    height: 60px;
+    width: 100%;
+    background:yellow;
+
+}
