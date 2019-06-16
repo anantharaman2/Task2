@@ -10,34 +10,71 @@
     
     height:3px;
     border:1px solid white;
+    text-align: center;
+    
     width: 10px;
-    left :400px;
+    left :600px;
    position: relative;
 }
 
 .container{
     width: 100%;
-    height:80%;
-    background: #800080;
+    height:85%;
+    
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
 }
 .left
 {
+    display:inline;
+    text-align: auto;
 width:50%;
 height:100%;
 
-background: orangered;
+background: white;
 }
 .right
 {
 width:50%;
 height:100%;
-background: orange;
+margin:auto;
+
+
+background:white;
+
+}
+form{
+    padding:3px 20px;
+    border:1px solid black;
 }
 .footer{
     width:100%;
-    height:10%;
-    background:grey;
+    height:5%;
+    background:white;
+    
+}
+.footer li{
+    list-style-type: none;
+    display:inline-block;
+    margin:25px 10px 0px;
+    padding:5px;
+}
+input{
+    padding:3px;
+    margin:3px;
+    border-radius:5px;
+}
+input[type=register]{
+    width:30%;
+    background-color: green;
+    cursor:pointer;
+    font-weight:bold;
+    color:white;
+}
+h1,h4{
+    text-align: center;
+}
+li{
+    color:blue;
 }
