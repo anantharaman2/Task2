@@ -1,40 +1,126 @@
-.header{
-    height: 80px;
-    width: 100%;
-    background: red;
-}
-#menu{
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    margin: 0;
-    background-color: #333;
-    
-}
-li{
-    float: left;
-}
-
 .container{
-    height: 60%;
-    width: 50%;
+    width: 90%;
+    height: 90%;
     position: relative;
-    left: 350px;
-    background: green;
-
+    left: 50px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    width: 100%;
+    height: 10%;
+    background: white;
+    border-bottom: 1px solid black;
+}
+.top ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 50px;
+}
+.top li{
+    float: right;
 
 }
-.body{
-    height: 40%;
-    width: 70%;
+.top ul li a{
+    background: white;
+    text-decoration: none;
+    color: black;
+    width: 130px;
+    display: block;
+    text-align: center;
+}
+.logo img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 80px;
+    left: 0;
+    top: 0;
+    height: 50px;
+}
+.search{
+    margin: 30px;
+    width: 300px;
+    height: 100px;
+    left: 60px;
+    border-radius: 10px;
     position: relative;
-    left: 200px;
-    background: blue;
+}
+.main{
+    position: relative;
+    order: 1;
+    top:0;
+    right:0;
+    box-sizing: border-box;
+    padding: 40px;
+    border: 1px solid black;
+    width: 400px;
+    height: auto;
+    background-size: cover;
+    background-position: center
+    right: 0;
+    background: white;
+    justify-content: center;
+    margin: 50px 500px;
+    display: flex;
+    flex-direction: column;
+}
+button.social{
+    position: relative;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color #fff;
+    font-weight:500;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: 0.2s ease;
 
+}
+#fb{
+    background: blue;
+    color: white;
+}
+#google{
+    background: white;
+}
+#login{
+    background: orangered;
+    color: white;
+}
+#signin{
+    background: white;
+    border: 1px solid orangered;
+    border-radius: 2px;
+    color: orangered;
+    right: -10px;
+}
+.bottom{
+    display: flex;
+    order: 2;
+    flex-direction: row;
+    width: 80%;
+    left: 300px;
+    position: relative;
+    left: 150px;
+    bottom: 30px;
+    height: auto;
+}
+.bot{
+    flex: 1;
 }
 .footer{
-    height: 60px;
+    display: flex;
+    flex-direction: row;
+    order: 3;
     width: 100%;
-    background:yellow;
-
+    height: 10%;
+}
+#left{
+    position: relative;
+    left: 900px;
 }
